@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+h1{
+    color:brown;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 21px;
+}
+
+p, span{
+    color: rgb(33, 33, 33);
+}
+nav{
+    background-color: rgb(142, 97, 42);
+}
+
+.navbar{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    /* position: sticky; */
+    margin-top: 0;
+}
+.navbar_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* #navbar_logo{
+    background-color: beige;
+} */
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navbar_item{
+    height: 80px;
+}
+
+.navbar_link{
+    color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar_btn{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    color:beige;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: bisque;
+    color: brown;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+    background-color: brown;
+    margin-top: 50px;
+}
+
+#contact_me{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact_me > *{
+    padding: 0.5rem;
+}
+
+#personal_info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 40px;
+    background-color: bisque;
+    border-radius: 20px;
+    min-width: 300px;
+    width: 500px;
+}
+
+#personal_info *{
+    padding: 0.5rem;
+    margin-left: 1.5rem;
+}

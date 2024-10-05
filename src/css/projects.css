@@ -115,10 +115,21 @@ footer{
 #past_projects_title{
     margin-top: 30px;
     margin-left: 40px;
+    font-size: 21px;
 }
 #list_projects{
     display: flex;
     flex-flow: column;
     padding: 0.5rem;
-    margin: 30px auto auto 20px;
+    margin: 10px auto auto 20px;
+}
+
+#list_projects div{
+    display: flex;
+    flex-flow: column;
+    padding: 0.5rem;
+}
+
+#list_projects div *{
+    padding: 0.15rem;
 }

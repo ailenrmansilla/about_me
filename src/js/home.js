@@ -7,7 +7,7 @@ const my_name = document.getElementById('my_name');
 
 button_name.addEventListener("click", function(){
     my_name.innerHTML = "Ailen"; 
-    my_name.style.color = "brown";
+    my_name.style.color = "#B3B492";
 });
 
 // Using document.lastModified property
@@ -33,3 +33,7 @@ phone_element.innerHTML = phone;
 contact_me.appendChild(email_element); // add new child at the end
 contact_me.appendChild(phone_element);
 
+// add a picture src to the img element
+
+let picture = document.querySelector("#portrait");
+picture.setAttribute('src','images/profile.jpeg');

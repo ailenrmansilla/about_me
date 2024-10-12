@@ -6,7 +6,7 @@
     font-size: 16px;
 }
 h1{
-    color:brown;
+    color:#6D646B;
     margin-top: 30px;
     margin-left: 40px;
     font-size: 21px;
@@ -16,7 +16,7 @@ p, span{
     color: rgb(33, 33, 33);
 }
 nav{
-    background-color: rgb(142, 97, 42);
+    background-color: #B3B492;
 }
 
 .navbar{
@@ -79,14 +79,14 @@ nav{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: brown;
-    color:beige;
+    background-color: #D8D0C1;
+    color:rgb(33, 33, 33);
     text-decoration: none;
 }
 
 .button:hover{
-    background-color: bisque;
-    color: brown;
+    background-color: #CBB8A9;
+    color: rgb(33, 33, 33);
 }
 
 footer{
@@ -99,7 +99,7 @@ footer{
     justify-content: space-around;
     text-align: center;
     padding: 2rem;
-    background-color: brown;
+    background-color: #B3B492;
     margin-top: 50px;
 }
 
@@ -118,16 +118,16 @@ footer{
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: auto;
     margin-top: 40px;
-    background-color: bisque;
+    background-color: #E0D3DE;
     border-radius: 20px;
     min-width: 300px;
     width: 500px;
 }
 
 #personal_info *{
-    padding: 0.5rem;
+    padding: 1rem;
     margin-left: 1.5rem;
 }

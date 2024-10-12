@@ -9,6 +9,8 @@ document.querySelector("#last_updated").innerHTML = date.getFullYear();
 
 let contact_me = document.querySelector('#contact_me');
 // content
+
+
 let email = 'man22007@byui.edu';
 let phone = '+17657301406';
 // create new nodes/elements

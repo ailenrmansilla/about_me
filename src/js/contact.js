@@ -27,7 +27,7 @@ contact_me.appendChild(phone_element);
 let personal_info = document.querySelector('#personal_info');
 
 let email_info = document.createElement('p');
-email_info.innerHTML = 'Email me at ' + email;
+email_info.innerHTML = 'Email me:' + email;
 
 let phone_info = document.createElement('p');
 phone_info.innerHTML = 'Phone: ' + phone;

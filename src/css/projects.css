@@ -173,3 +173,7 @@ footer.x-colophon {
     color:rgb(33, 33, 33);
     text-decoration: none;
 }
+#check_language_button:hover, #check_button:hover{
+    background-color:#CBB8A9;
+    color: rgb(33, 33, 33);
+}

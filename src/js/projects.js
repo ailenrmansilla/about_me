@@ -42,7 +42,7 @@ const programming_languages_learned = ["python", "c", "html","html5", "css", "cs
 document.getElementById("check_language_button").addEventListener("click", function(){
     let language = document.getElementById("programming").value.toLowerCase();
     const resultContainer = document.getElementById("result_container");
-    resultContainer.innerHTML = ""; // we clear any previous result
+    resultContainer.innerHTML = ""; // clear any previous result to reuse this container
     let result = document.createElement('p');
     
     if (programming_languages_learned.includes(language)) {
